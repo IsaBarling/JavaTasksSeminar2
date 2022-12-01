@@ -36,5 +36,8 @@ public class task1 {
 		str = Arrays.toString(arr);
 		System.out.println(str);
 		System.out.println("Sorted with bubble sort");
+	
 	}
+
+
 }
