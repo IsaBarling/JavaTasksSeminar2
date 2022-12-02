@@ -1,0 +1,4 @@
+
+2022-12-01T14:18:59.333419100: null
+java.lang.Exception
+	at Logs.main(logs.java:61)
