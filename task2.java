@@ -4,10 +4,10 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 
-public class task3 {
+public class task2 {
 	public static void main(String[] args) throws java.io.IOException
 	{
-		Logger logger = Logger.getLogger(task3.class.getName());
+		Logger logger = Logger.getLogger(task2.class.getName());
         FileHandler fh = new FileHandler("log_03.txt", true);
         logger.addHandler(fh);
 
