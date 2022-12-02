@@ -1,8 +1,20 @@
 import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.SimpleFormatter;
+import java.util.logging.Logger;
 import java.util.Arrays;
 
 public class task1 {
 	public static void main(String args[]) throws Exception {
+		Logger logger = Logger.getLogger(task1.class.getName());
+        FileHandler fh = new FileHandler("log_01.txt", true);
+        logger.addHandler(fh);
+
+        SimpleFormatter sFormat = new SimpleFormatter();
+        fh.setFormatter(sFormat);
+		
+		
+		
 		int arr[] = new int[10];
 		try (Scanner c = new Scanner(System.in)) {
 			System.out.println("Enter 10 numbers to sort");
